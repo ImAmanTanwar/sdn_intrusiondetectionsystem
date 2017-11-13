@@ -1,0 +1,351 @@
+srcIP,destIP,srcMAC,destMAC,srcPort,destPort
+/192.168.52.182,/192.168.255.255,a0:48:1c:9a:ab:b2,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.41,/172.16.83.255,50:2b:73:dc:08:35,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.121,/172.16.83.255,d8:fe:e3:5c:e9:34,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,13503 (unknown),53 (Domain Name Server),61
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,45558 (unknown),53 (Domain Name Server),61
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),13503 (unknown),111
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),45558 (unknown),123
+/172.16.81.228,/172.16.83.255,70:18:8b:b4:69:ef,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),96
+/172.16.81.225,/224.0.0.251,98:0c:a5:c1:85:95,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.81.68,/224.0.0.251,00:ec:0a:98:f3:cd,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),138
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,53193 (unknown),53 (Domain Name Server),76
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,28258 (unknown),53 (Domain Name Server),76
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),53193 (unknown),118
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),28258 (unknown),118
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,58474 (unknown),53 (Domain Name Server),76
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),58474 (unknown),102
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,27525 (unknown),53 (Domain Name Server),64
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,1505 (unknown),53 (Domain Name Server),64
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,64947 (unknown),53 (Domain Name Server),64
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),27525 (unknown),146
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),1505 (unknown),126
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),64947 (unknown),146
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.83.41,/224.0.0.252,50:2b:73:dc:08:35,01:00:5e:00:00:fc,53777 (unknown),5355 (unknown),53
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.191,/172.16.83.255,c8:3a:35:c3:7b:91,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/192.168.52.182,/224.0.0.252,a0:48:1c:9a:ab:b2,01:00:5e:00:00:fc,60691 (unknown),5355 (unknown),59
+/172.16.83.58,/224.0.0.251,30:10:b3:a1:e4:81,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),68
+/172.16.83.58,/224.0.0.251,30:10:b3:a1:e4:81,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),68
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.83.41,/172.16.83.255,50:2b:73:dc:08:35,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.121,/172.16.83.255,d8:fe:e3:5c:e9:34,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.192,/224.0.0.251,4c:bb:58:30:a8:99,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),722
+/172.16.82.228,/224.0.0.251,3c:a0:67:88:cc:f1,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),68
+/192.168.52.182,/224.0.0.252,a0:48:1c:9a:ab:b2,01:00:5e:00:00:fc,60691 (unknown),5355 (unknown),59
+/172.16.82.228,/224.0.0.251,3c:a0:67:88:cc:f1,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),68
+/172.16.81.228,/239.255.255.250,70:18:8b:b4:69:ef,01:00:5e:7f:ff:fa,52300 (unknown),1900 (unknown),161
+/172.16.82.69,/224.0.0.251,e8:4e:06:40:50:50,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),722
+/172.16.82.160,/224.0.0.251,88:78:73:8f:07:87,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),722
+/172.16.82.172,/224.0.0.251,bc:85:56:c7:42:69,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),722
+/172.16.81.235,/224.0.0.251,18:3d:a2:fd:15:97,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),722
+/172.16.81.128,/224.0.0.251,3c:95:09:56:41:f9,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),722
+/172.16.82.12,/224.0.0.251,ac:72:89:39:45:72,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),722
+/172.16.83.58,/239.255.255.250,30:10:b3:a1:e4:81,01:00:5e:7f:ff:fa,56605 (unknown),1900 (unknown),165
+/172.16.83.58,/224.0.0.252,30:10:b3:a1:e4:81,01:00:5e:00:00:fc,54023 (unknown),5355 (unknown),59
+/172.16.83.58,/224.0.0.252,30:10:b3:a1:e4:81,01:00:5e:00:00:fc,59423 (unknown),5355 (unknown),59
+/172.16.83.58,/224.0.0.252,30:10:b3:a1:e4:81,01:00:5e:00:00:fc,61790 (unknown),5355 (unknown),58
+/172.16.82.146,/224.0.0.251,34:f6:4b:dd:d8:bc,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),722
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.81.228,/239.255.255.250,70:18:8b:b4:69:ef,01:00:5e:7f:ff:fa,52300 (unknown),1900 (unknown),161
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.81.228,/224.0.0.252,70:18:8b:b4:69:ef,01:00:5e:00:00:fc,51239 (unknown),5355 (unknown),57
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/192.168.52.182,/192.168.255.255,a0:48:1c:9a:ab:b2,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.81.228,/172.16.83.255,70:18:8b:b4:69:ef,ff:ff:ff:ff:ff:ff,138 (NETBIOS Datagram Service),138 (NETBIOS Datagram Service),202
+/172.16.81.228,/172.16.83.255,70:18:8b:b4:69:ef,ff:ff:ff:ff:ff:ff,138 (NETBIOS Datagram Service),138 (NETBIOS Datagram Service),229
+/172.16.80.146,/224.0.0.251,a4:70:d6:50:14:a0,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.122,/172.16.83.255,ac:2b:6e:3d:b2:06,ff:ff:ff:ff:ff:ff,138 (NETBIOS Datagram Service),138 (NETBIOS Datagram Service),258
+/172.16.82.122,/172.16.83.255,ac:2b:6e:3d:b2:06,ff:ff:ff:ff:ff:ff,138 (NETBIOS Datagram Service),138 (NETBIOS Datagram Service),235
+/172.16.83.253,/224.0.0.251,b0:e2:35:55:29:19,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),144
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,9300 (unknown),53 (Domain Name Server),59
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,8035 (unknown),53 (Domain Name Server),59
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),9300 (unknown),120
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),8035 (unknown),132
+/172.16.80.40,/224.0.0.251,94:65:2d:8b:44:e9,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,56450 (unknown),53 (Domain Name Server),78
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,28627 (unknown),53 (Domain Name Server),78
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,32673 (unknown),53 (Domain Name Server),78
+/172.16.83.33,/224.0.0.251,d0:53:49:bd:de:6f,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),106
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),56450 (unknown),123
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),28627 (unknown),135
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),32673 (unknown),123
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,37953 (unknown),53 (Domain Name Server),61
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,2004 (unknown),53 (Domain Name Server),61
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),37953 (unknown),111
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),2004 (unknown),123
+/172.16.81.228,/224.0.0.251,70:18:8b:b4:69:ef,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),294
+/172.16.83.41,/224.0.0.252,50:2b:73:dc:08:35,01:00:5e:00:00:fc,58075 (unknown),5355 (unknown),61
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.228,/172.16.83.255,70:18:8b:b4:69:ef,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.228,/172.16.83.255,70:18:8b:b4:69:ef,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.228,/172.16.83.255,70:18:8b:b4:69:ef,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.80.152,/172.16.83.255,8c:85:90:4b:69:c5,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,35256 (unknown),53 (Domain Name Server),78
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,2487 (unknown),53 (Domain Name Server),78
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,38306 (unknown),53 (Domain Name Server),78
+/172.16.83.41,/172.16.83.255,50:2b:73:dc:08:35,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),35256 (unknown),123
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),2487 (unknown),135
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),38306 (unknown),123
+/172.16.83.121,/172.16.83.255,d8:fe:e3:5c:e9:34,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.87,/255.255.255.255,30:52:cb:74:9e:d9,ff:ff:ff:ff:ff:ff,62126 (unknown),7533 (unknown),62
+/172.16.81.89,/239.255.255.250,e4:f8:9c:a2:7c:cc,01:00:5e:7f:ff:fa,58031 (unknown),1900 (unknown),303
+/172.16.83.41,/172.16.83.255,50:2b:73:dc:08:35,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.34,/239.255.255.250,f0:d7:aa:e1:c8:e2,01:00:5e:7f:ff:fa,38179 (unknown),1900 (unknown),153
+/172.16.80.199,/172.16.83.255,64:5a:04:68:1d:6d,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.81.127,/239.255.255.250,0c:84:dc:27:4f:39,01:00:5e:7f:ff:fa,61708 (unknown),1900 (unknown),161
+/172.16.80.210,/224.0.0.251,a4:70:d6:88:62:21,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),105
+/172.16.80.152,/172.16.83.255,8c:85:90:4b:69:c5,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.191,/172.16.83.255,c8:3a:35:c3:7b:91,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.80.119,/239.255.255.250,e4:f8:9c:6f:a2:93,01:00:5e:7f:ff:fa,63261 (unknown),1900 (unknown),304
+/192.168.52.182,/192.168.255.255,a0:48:1c:9a:ab:b2,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.228,/224.0.0.251,3c:a0:67:88:cc:f1,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),68
+/172.16.82.228,/224.0.0.251,3c:a0:67:88:cc:f1,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),68
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,21686 (unknown),53 (Domain Name Server),64
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,36943 (unknown),53 (Domain Name Server),64
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,26733 (unknown),53 (Domain Name Server),64
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),21686 (unknown),101
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),36943 (unknown),85
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),26733 (unknown),101
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,46236 (unknown),53 (Domain Name Server),75
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),46236 (unknown),131
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,23437 (unknown),53 (Domain Name Server),75
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),23437 (unknown),143
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,56481 (unknown),53 (Domain Name Server),71
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,21752 (unknown),53 (Domain Name Server),71
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),56481 (unknown),125
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),21752 (unknown),109
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,24886 (unknown),53 (Domain Name Server),71
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,56091 (unknown),53 (Domain Name Server),71
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),24886 (unknown),130
+/172.16.81.228,/172.16.83.255,70:18:8b:b4:69:ef,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.228,/172.16.83.255,70:18:8b:b4:69:ef,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.228,/172.16.83.255,70:18:8b:b4:69:ef,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),56091 (unknown),142
+/172.16.80.40,/224.0.0.251,94:65:2d:8b:44:e9,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.81.34,/239.255.255.250,f0:d7:aa:e1:c8:e2,01:00:5e:7f:ff:fa,38179 (unknown),1900 (unknown),153
+/172.16.80.152,/172.16.83.255,8c:85:90:4b:69:c5,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,39449 (unknown),53 (Domain Name Server),72
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,43580 (unknown),53 (Domain Name Server),72
+/172.16.83.41,/172.16.83.255,50:2b:73:dc:08:35,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.121,/172.16.83.255,d8:fe:e3:5c:e9:34,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),39449 (unknown),88
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),43580 (unknown),88
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,17983 (unknown),53 (Domain Name Server),72
+/172.16.82.198,/239.255.255.250,cc:61:e5:bc:d6:72,01:00:5e:7f:ff:fa,38461 (unknown),1900 (unknown),153
+/172.16.80.152,/172.16.83.255,8c:85:90:4b:69:c5,ff:ff:ff:ff:ff:ff,138 (NETBIOS Datagram Service),138 (NETBIOS Datagram Service),202
+/172.16.81.87,/255.255.255.255,30:52:cb:74:9e:d9,ff:ff:ff:ff:ff:ff,62126 (unknown),7533 (unknown),62
+/192.168.52.182,/192.168.255.255,a0:48:1c:9a:ab:b2,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.190,/239.255.255.250,b8:81:98:df:0b:ba,01:00:5e:7f:ff:fa,57199 (unknown),1900 (unknown),165
+/172.16.80.199,/172.16.83.255,64:5a:04:68:1d:6d,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.82.191,/172.16.83.255,c8:3a:35:c3:7b:91,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.83.58,/224.0.0.251,30:10:b3:a1:e4:81,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),68
+/172.16.83.58,/224.0.0.251,30:10:b3:a1:e4:81,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),68
+/172.16.81.228,/224.0.0.251,70:18:8b:b4:69:ef,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),68
+/172.16.81.228,/224.0.0.251,70:18:8b:b4:69:ef,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),68
+/192.168.45.45,/239.255.255.250,6c:62:6d:ca:72:40,01:00:5e:7f:ff:fa,55954 (unknown),3702 (unknown),666
+/172.16.83.112,/239.255.255.250,74:de:2b:3e:4a:b5,01:00:5e:7f:ff:fa,60226 (unknown),1900 (unknown),153
+/172.16.83.112,/239.255.255.250,74:de:2b:3e:4a:b5,01:00:5e:7f:ff:fa,60226 (unknown),1900 (unknown),151
+/192.168.45.45,/239.255.255.250,6c:62:6d:ca:72:40,01:00:5e:7f:ff:fa,55954 (unknown),3702 (unknown),666
+/172.16.82.121,/224.0.0.251,9c:d2:1e:2a:23:55,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),118
+/192.168.45.45,/239.255.255.250,6c:62:6d:ca:72:40,01:00:5e:7f:ff:fa,55956 (unknown),3702 (unknown),684
+/172.16.83.121,/172.16.83.255,d8:fe:e3:5c:e9:34,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.190,/224.0.0.251,98:01:a7:c6:87:55,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),205
+/172.16.81.93,/224.0.0.251,48:5a:b6:c8:7f:07,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),166
+/172.16.81.174,/172.16.83.255,18:d6:c7:1b:f2:19,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.174,/224.0.0.252,18:d6:c7:1b:f2:19,01:00:5e:00:00:fc,54788 (unknown),5355 (unknown),50
+/172.16.81.228,/224.0.0.251,70:18:8b:b4:69:ef,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),575
+/172.16.80.40,/224.0.0.251,94:65:2d:8b:44:e9,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.83.41,/239.255.255.250,50:2b:73:dc:08:35,01:00:5e:7f:ff:fa,50539 (unknown),1900 (unknown),165
+/172.16.81.15,/224.0.0.251,5c:97:f3:32:96:22,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.80.58,/239.255.255.250,a0:d3:7a:7e:05:59,01:00:5e:7f:ff:fa,39786 (unknown),1900 (unknown),200
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,9281 (unknown),53 (Domain Name Server),57
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,53122 (unknown),53 (Domain Name Server),60
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,37209 (unknown),53 (Domain Name Server),57
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,37497 (unknown),53 (Domain Name Server),60
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),9281 (unknown),105
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),53122 (unknown),76
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),37209 (unknown),117
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),37497 (unknown),88
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,18259 (unknown),53 (Domain Name Server),65
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,50171 (unknown),53 (Domain Name Server),65
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,11401 (unknown),53 (Domain Name Server),58
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,33213 (unknown),53 (Domain Name Server),58
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),18259 (unknown),105
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),50171 (unknown),117
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),11401 (unknown),151
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),33213 (unknown),115
+/172.16.82.163,/239.255.255.250,b4:6d:83:7e:bb:20,01:00:5e:7f:ff:fa,58940 (unknown),1900 (unknown),304
+/172.16.81.174,/224.0.0.252,18:d6:c7:1b:f2:19,01:00:5e:00:00:fc,54788 (unknown),5355 (unknown),50
+/172.16.80.199,/172.16.83.255,64:5a:04:68:1d:6d,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.82.191,/172.16.83.255,c8:3a:35:c3:7b:91,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.83.50,/172.16.83.255,a4:02:b9:59:be:29,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.121,/172.16.83.255,d8:fe:e3:5c:e9:34,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.1,/239.255.255.250,a8:bb:cf:1e:0b:52,01:00:5e:7f:ff:fa,56364 (unknown),1900 (unknown),203
+/172.16.82.228,/224.0.0.251,3c:a0:67:88:cc:f1,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),68
+/172.16.82.228,/224.0.0.251,3c:a0:67:88:cc:f1,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),68
+/172.16.81.228,/239.255.255.250,70:18:8b:b4:69:ef,01:00:5e:7f:ff:fa,52300 (unknown),1900 (unknown),161
+/172.16.81.174,/172.16.83.255,18:d6:c7:1b:f2:19,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.58,/239.255.255.250,30:10:b3:a1:e4:81,01:00:5e:7f:ff:fa,56605 (unknown),1900 (unknown),165
+/172.16.60.79,/255.255.255.255,d4:c9:ef:e3:fb:4b,ff:ff:ff:ff:ff:ff,12223 (unknown),12223 (unknown),192
+/172.16.80.210,/239.255.255.250,a4:70:d6:88:62:21,01:00:5e:7f:ff:fa,45618 (unknown),1900 (unknown),153
+/172.16.80.27,/224.0.0.251,84:10:0d:ff:91:1f,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),105
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),17983 (unknown),72
+/172.16.83.56,/172.16.83.255,f8:34:41:66:7c:86,ff:ff:ff:ff:ff:ff,54847 (unknown),137 (NETBIOS Name Service),78
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,23923 (unknown),53 (Domain Name Server),62
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,33631 (unknown),53 (Domain Name Server),62
+/172.16.83.127,/172.16.50.10,e8:de:27:12:cd:0b,44:31:92:7d:8d:a6,28993 (unknown),53 (Domain Name Server),62
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),23923 (unknown),107
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),33631 (unknown),119
+/172.16.50.10,/172.16.83.127,44:31:92:7d:8d:a6,e8:de:27:12:cd:0b,53 (Domain Name Server),28993 (unknown),107
+/172.16.81.15,/224.0.0.251,5c:97:f3:32:96:22,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),83
+/172.16.80.58,/239.255.255.250,a0:d3:7a:7e:05:59,01:00:5e:7f:ff:fa,39786 (unknown),1900 (unknown),200
+/172.16.80.210,/239.255.255.250,a4:70:d6:88:62:21,01:00:5e:7f:ff:fa,45618 (unknown),1900 (unknown),153
+/172.16.83.50,/172.16.83.255,a4:02:b9:59:be:29,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.121,/172.16.83.255,d8:fe:e3:5c:e9:34,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.87,/255.255.255.255,30:52:cb:74:9e:d9,ff:ff:ff:ff:ff:ff,62126 (unknown),7533 (unknown),62
+/172.16.82.75,/239.255.255.250,60:36:dd:3f:78:d9,01:00:5e:7f:ff:fa,54446 (unknown),1900 (unknown),202
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.83.106,/224.0.0.251,d0:f8:8c:d8:90:9d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),105
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.125,/224.0.0.251,50:b7:c3:d9:66:c9,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),62
+/172.16.80.199,/172.16.83.255,64:5a:04:68:1d:6d,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.81.127,/239.255.255.250,0c:84:dc:27:4f:39,01:00:5e:7f:ff:fa,61708 (unknown),1900 (unknown),161
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.81.174,/172.16.83.255,18:d6:c7:1b:f2:19,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.80.210,/239.255.255.250,a4:70:d6:88:62:21,01:00:5e:7f:ff:fa,45618 (unknown),1900 (unknown),153
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.191,/172.16.83.255,c8:3a:35:c3:7b:91,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.81.57,/224.0.0.251,20:e4:16:01:23:98,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),79
+/172.16.83.56,/172.16.83.255,f8:34:41:66:7c:86,ff:ff:ff:ff:ff:ff,57659 (unknown),137 (NETBIOS Name Service),78
+/172.16.82.234,/224.0.0.251,60:6c:66:86:85:35,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),62
+/172.16.81.84,/224.0.0.251,34:02:86:be:ab:4a,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),62
+/172.16.82.218,/224.0.0.251,68:94:23:fe:52:e9,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),62
+/172.16.83.50,/172.16.83.255,a4:02:b9:59:be:29,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.83.41,/172.16.83.255,50:2b:73:dc:08:35,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.121,/172.16.83.255,d8:fe:e3:5c:e9:34,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.41,/172.16.83.255,50:2b:73:dc:08:35,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.83.41,/224.0.0.252,50:2b:73:dc:08:35,01:00:5e:00:00:fc,52378 (unknown),5355 (unknown),50
+/172.16.80.58,/239.255.255.250,a0:d3:7a:7e:05:59,01:00:5e:7f:ff:fa,39786 (unknown),1900 (unknown),200
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.81.125,/224.0.0.251,60:8e:08:14:c6:25,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.81.174,/172.16.83.255,18:d6:c7:1b:f2:19,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.174,/224.0.0.252,18:d6:c7:1b:f2:19,01:00:5e:00:00:fc,52065 (unknown),5355 (unknown),50
+/172.16.81.87,/255.255.255.255,30:52:cb:74:9e:d9,ff:ff:ff:ff:ff:ff,62126 (unknown),7533 (unknown),62
+/172.16.82.75,/239.255.255.250,60:36:dd:3f:78:d9,01:00:5e:7f:ff:fa,54446 (unknown),1900 (unknown),202
+/172.16.80.199,/172.16.83.255,64:5a:04:68:1d:6d,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.83.41,/224.0.0.252,50:2b:73:dc:08:35,01:00:5e:00:00:fc,49510 (unknown),5355 (unknown),50
+/172.16.83.41,/224.0.0.252,50:2b:73:dc:08:35,01:00:5e:00:00:fc,52378 (unknown),5355 (unknown),50
+/172.16.82.191,/172.16.83.255,c8:3a:35:c3:7b:91,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.81.174,/224.0.0.252,18:d6:c7:1b:f2:19,01:00:5e:00:00:fc,52065 (unknown),5355 (unknown),50
+/172.16.81.57,/224.0.0.251,20:e4:16:01:23:98,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),62
+/172.16.82.1,/239.255.255.250,a8:bb:cf:1e:0b:52,01:00:5e:7f:ff:fa,56364 (unknown),1900 (unknown),203
+/172.16.83.91,/239.255.255.250,c4:b3:01:b8:78:d1,01:00:5e:7f:ff:fa,64464 (unknown),1900 (unknown),203
+/172.16.83.41,/172.16.83.255,50:2b:73:dc:08:35,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.121,/172.16.83.255,d8:fe:e3:5c:e9:34,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.41,/172.16.83.255,50:2b:73:dc:08:35,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.80.165,/224.0.0.251,c8:25:e1:d4:1d:fb,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.82.40,/224.0.0.251,bc:85:56:c5:c4:ab,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),62
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.83.56,/172.16.83.255,f8:34:41:66:7c:86,ff:ff:ff:ff:ff:ff,50741 (unknown),137 (NETBIOS Name Service),78
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.58,/224.0.0.252,30:10:b3:a1:e4:81,01:00:5e:00:00:fc,50025 (unknown),5355 (unknown),50
+/172.16.81.157,/224.0.0.251,58:fb:84:47:9a:69,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),79
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.58,/224.0.0.252,30:10:b3:a1:e4:81,01:00:5e:00:00:fc,54705 (unknown),5355 (unknown),50
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.58,/224.0.0.252,30:10:b3:a1:e4:81,01:00:5e:00:00:fc,54175 (unknown),5355 (unknown),50
+/172.16.81.225,/224.0.0.251,98:0c:a5:c1:85:95,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.81.225,/224.0.0.251,98:0c:a5:c1:85:95,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.80.58,/239.255.255.250,a0:d3:7a:7e:05:59,01:00:5e:7f:ff:fa,39786 (unknown),1900 (unknown),200
+/172.16.81.228,/172.16.83.255,70:18:8b:b4:69:ef,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.228,/224.0.0.252,70:18:8b:b4:69:ef,01:00:5e:00:00:fc,60771 (unknown),5355 (unknown),50
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/192.168.89.153,/239.255.255.250,ac:1f:6b:10:64:e2,01:00:5e:7f:ff:fa,52445 (unknown),1900 (unknown),194
+/172.16.60.79,/255.255.255.255,d4:c9:ef:e3:fb:4b,ff:ff:ff:ff:ff:ff,3814 (unknown),5246 (unknown),509
+/172.16.60.79,/224.0.1.140,d4:c9:ef:e3:fb:4b,01:00:5e:00:01:8c,3814 (unknown),5246 (unknown),509
+/172.16.81.89,/239.255.255.250,e4:f8:9c:a2:7c:cc,01:00:5e:7f:ff:fa,58031 (unknown),1900 (unknown),303
+/172.16.80.40,/239.255.255.250,94:65:2d:8b:44:e9,01:00:5e:7f:ff:fa,38461 (unknown),1900 (unknown),153
+/172.16.81.87,/255.255.255.255,30:52:cb:74:9e:d9,ff:ff:ff:ff:ff:ff,62126 (unknown),7533 (unknown),62
+/172.16.82.75,/239.255.255.250,60:36:dd:3f:78:d9,01:00:5e:7f:ff:fa,54446 (unknown),1900 (unknown),202
+/172.16.83.106,/224.0.0.251,d0:f8:8c:d8:90:9d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),105
+/172.16.80.40,/224.0.0.251,94:65:2d:8b:44:e9,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.80.40,/224.0.0.251,94:65:2d:8b:44:e9,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),105
+/172.16.80.199,/172.16.83.255,64:5a:04:68:1d:6d,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.83.41,/172.16.83.255,50:2b:73:dc:08:35,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.80.119,/239.255.255.250,e4:f8:9c:6f:a2:93,01:00:5e:7f:ff:fa,63261 (unknown),1900 (unknown),304
+/172.16.83.41,/172.16.83.255,50:2b:73:dc:08:35,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.104,/224.0.0.251,e0:2c:b2:ce:6f:63,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),105
+/172.16.83.58,/239.255.255.250,30:10:b3:a1:e4:81,01:00:5e:7f:ff:fa,56605 (unknown),1900 (unknown),165
+/172.16.83.91,/239.255.255.250,c4:b3:01:b8:78:d1,01:00:5e:7f:ff:fa,64464 (unknown),1900 (unknown),203
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.162,/239.255.255.250,14:2d:27:d4:22:f9,01:00:5e:7f:ff:fa,64616 (unknown),1900 (unknown),165
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.121,/172.16.83.255,d8:fe:e3:5c:e9:34,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.228,/172.16.83.255,70:18:8b:b4:69:ef,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.80.40,/239.255.255.250,94:65:2d:8b:44:e9,01:00:5e:7f:ff:fa,38461 (unknown),1900 (unknown),153
+/172.16.82.1,/239.255.255.250,a8:bb:cf:1e:0b:52,01:00:5e:7f:ff:fa,56364 (unknown),1900 (unknown),203
+/172.16.81.15,/224.0.0.251,5c:97:f3:32:96:22,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),83
+/172.16.81.125,/224.0.0.251,60:8e:08:14:c6:25,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.81.121,/239.255.255.250,a4:db:30:6d:98:27,01:00:5e:7f:ff:fa,59642 (unknown),1900 (unknown),201
+/172.16.81.100,/224.0.0.251,e4:f8:9c:79:f4:af,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),203
+/192.168.89.153,/239.255.255.250,ac:1f:6b:10:64:e2,01:00:5e:7f:ff:fa,52445 (unknown),1900 (unknown),194
+/172.16.83.56,/224.0.0.251,f8:34:41:66:7c:86,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),188
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.81.87,/255.255.255.255,30:52:cb:74:9e:d9,ff:ff:ff:ff:ff:ff,62126 (unknown),7533 (unknown),62
+/172.16.81.143,/224.0.0.251,30:35:ad:aa:3d:84,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),160
+/172.16.81.190,/224.0.0.251,98:01:a7:c6:87:55,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),312
+/172.16.80.40,/224.0.0.251,94:65:2d:8b:44:e9,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),105
+/172.16.80.199,/172.16.83.255,64:5a:04:68:1d:6d,ff:ff:ff:ff:ff:ff,54915 (unknown),54915 (unknown),291
+/172.16.83.89,/224.0.0.251,34:e6:ad:fc:76:1e,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),77
+/172.16.81.127,/239.255.255.250,0c:84:dc:27:4f:39,01:00:5e:7f:ff:fa,61708 (unknown),1900 (unknown),161
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.58,/172.16.83.255,30:10:b3:a1:e4:81,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.83.121,/172.16.83.255,d8:fe:e3:5c:e9:34,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.228,/172.16.83.255,70:18:8b:b4:69:ef,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.81.174,/172.16.83.255,18:d6:c7:1b:f2:19,ff:ff:ff:ff:ff:ff,137 (NETBIOS Name Service),137 (NETBIOS Name Service),78
+/172.16.82.213,/224.0.0.251,2c:33:7a:f0:c2:4d,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),75
+/172.16.82.198,/224.0.0.251,cc:61:e5:bc:d6:72,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),105
+/172.16.80.165,/224.0.0.251,c8:25:e1:d4:1d:fb,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),89
+/172.16.83.56,/224.0.0.251,f8:34:41:66:7c:86,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),533
+/172.16.81.34,/224.0.0.251,f0:d7:aa:e1:c8:e2,01:00:5e:00:00:fb,5353 (unknown),5353 (unknown),105

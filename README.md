@@ -1,2 +1,14 @@
-H3HÚî²*'ë^uËb¢t²²×¦N«yªŞ¶Şz–«¶Ëh¶¬¦º#yËuæ­º·ÆÚÚrØ¨8b²jºWÆÚÚrÛ(ºÖ¥–Ø^­é^½©í}æ­º·¬~º&¶§zÜ(®JZrG­±©İ¶¦¶‹kj)âÜ•«,‰øœjØ¨jºW¶N¶¢)à¡ûazjzTázjzX¬¶¶¢çn²)às@–
-+ŠØfYç¦Û«{]4¥§$zÛ)­êZ­æ¬ºiš¯*¶µÓJZrG­²–¬²Ø^šÚ-…ëkj)â	¨vé^Â+a’z0V›z["°miÉ
+# Intrusion Detection System with SDN
+Implementing a flexible Network-based Intrusion Detection and Prevention System on Software-defined Networks.
+
+# Intrusion Detection System
+An intrusion detection system (IDS) is a device or software application that monitors a network or systems for malicious activity or policy violations. We, in particular, will be addressing only DDoS attack.
+
+# Implementation Overview
+* The packets are captured at the Open flow switches.
+* These packets are then sent to the Feature Extractor Module which extracts relevant features and forwards them to the Classifier Module on which we run some machine learning algorithms and train the model.
+* The Classifier module( after learning ) sends the information to the Controller, which then pushes appropriate rules the Open flow switches.
+
+# Project Delegation
+* Feature Extractor Module and communication between Open flow switches to this module: Aman Tanwar.
+* Classification Module and communication between this module and Controller: Ritika Gera.

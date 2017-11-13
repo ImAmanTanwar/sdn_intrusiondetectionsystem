@@ -1,0 +1,1 @@
+srcIP,destIP,srcMAC,destMAC,srcPort,destPort,isSYN,isRST,isACK,isFIN,isPSH,packetLen
