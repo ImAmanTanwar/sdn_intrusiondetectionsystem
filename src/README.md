@@ -17,8 +17,14 @@ $sudo apt install libpcap-dev
 Feature Extrator project has an executable jar file in FeatureExtracter.project/build/libs/ directory. Which can be executed with
 
 ```
-$java -jar <filename>.jar
+$java -jar <filename>.jar <featureCollectorAddress> <featureCollectorPort>
 ```
+
+e.g.
+```
+$java -jar FeatureExtractor.jar 172.16.167.1 8000
+```
+Both address and port arguments are optional. Default address is 172.16.167.1 and port is 8000.
 Then there will be a list of available interfaces. Select one from which you want to collect features from.
 
 ## Feature Collector

@@ -23,10 +23,21 @@ public class JpcapTest  {
     private static final String ENDJSON = "]}";
     static FileWriter fileWriter;
     static BufferedWriter bufferedWriter;
+    static  String serverAddress="172.16.167.1";
+    static String serverPort="8000";
 
     public static void main(String[] str) throws PcapNativeException, IOException, NotOpenException {
         new File(PATH).mkdir();
         Date date = new Date();
+
+        if(str.length==2) {
+            serverAddress = str[0];
+            serverPort = str[1];
+        }
+        else if(str.length==1) {
+            serverAddress = str[0];
+        }
+
         String currTime = date.getHours()+""+date.getMinutes()+""+date.getSeconds()+"_"+date.getDate()+""+date.getMonth()+""+date.getYear();
         File tcpFile = setLogFiles(TCP,currTime,TCP_FILE_HEAD);
         File udpFile = setLogFiles(UDP,currTime,UDP_FILE_HEAD);
@@ -36,27 +47,37 @@ public class JpcapTest  {
             PcapNetworkInterface iface = listInterfaces.get(i);
             System.out.println((i+1)+". "+iface.getName());
         }
+
         Scanner scanner = new Scanner(System.in);
         int interfaceNum = scanner.nextInt();
+
         PcapNetworkInterface selectedInterface = listInterfaces.get(interfaceNum-1);
         PcapHandle handle = selectedInterface.openLive(LENGTH,PromiscuousMode.PROMISCUOUS,TIMEOUT);
+
         System.out.println("Packet feature log started generated.....\nCheck Files:");
         System.out.println(tcpFile.getName()+"\n"+udpFile.getName());
         System.out.println("Press CTRL+C to exit....");
+
         int packetCount = 0;
         StringBuilder apiData = new StringBuilder();
         apiData.append(STARTJSON);
+
+
         while(true) {
             if(packetCount == 100) {
                 packetCount = 0;
                 apiData.append(ENDJSON);
                 System.out.println(apiData.toString());
-                APIService.sendReq(apiData.toString());
+                APIService.sendReq(serverAddress,serverPort,apiData.toString());
                 apiData.setLength(0);
                 apiData.append(STARTJSON);
             }
+
+
             Packet packet = handle.getNextPacket();
             File currFile;
+
+
             if(packet!=null) {
                 EthernetPacket ethernetPacket = packet.get(EthernetPacket.class);
                 PacketFeatures packetFeatures = null;
@@ -77,7 +98,9 @@ public class JpcapTest  {
                                     tcpHeader.getUrg(),
                                     tcpHeader.getPsh());
                             data += "{\"src_port\":\""+tcpHeader.getSrcPort()+"\",\"dest_port\":\""+tcpHeader.getDstPort()+"\"";
-                        } else {
+                        }
+
+                        else {
                             UdpPacket udpPacket = ipV4Packet.getPayload().get(UdpPacket.class);
                             currFile = udpFile;
                             if (udpPacket != null) {
@@ -87,6 +110,8 @@ public class JpcapTest  {
                                 data += "{\"src_port\":\""+udpHeader.getSrcPort()+"\",\"dest_port\":\""+udpHeader.getDstPort()+"\"";
                             }
                         }
+
+
                         if(packetFeatures!=null) {
                             packetFeatures.setPacketLength(ipV4Packet.getHeader().getTotalLength());
                             packetFeatures.setDestAddress(ipV4Packet.getHeader().getDstAddr());
