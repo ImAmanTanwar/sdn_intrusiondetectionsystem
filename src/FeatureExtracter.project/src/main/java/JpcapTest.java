@@ -97,7 +97,10 @@ public class JpcapTest  {
                                     tcpHeader.getFin(),
                                     tcpHeader.getUrg(),
                                     tcpHeader.getPsh());
-                            data += "{\"src_port\":\""+tcpHeader.getSrcPort()+"\",\"dest_port\":\""+tcpHeader.getDstPort()+"\"";
+                            data += "{\"srcPort\":\""+tcpHeader.getSrcPort()+"\",\"destPort\":\""+tcpHeader.getDstPort()+"\","
+                                    +"\"isSYN\":\""+tcpHeader.getSyn()+"\",\"isRST\":\""+tcpHeader.getRst()+"\",\"isFIN\":\""+
+                                    tcpHeader.getFin()+"\",\"isPSH\":\""+tcpHeader.getPsh()+"\",\"isURG\":\""+tcpHeader.getUrg()+"\",\"isACK\":\""+
+                                    tcpHeader.getAck()+"\"";
                         }
 
                         else {
@@ -107,19 +110,19 @@ public class JpcapTest  {
                                 UdpPacket.UdpHeader udpHeader = udpPacket.getHeader();
                                 packetFeatures = new PacketFeaturesUDP(udpHeader.getSrcPort(),
                                         udpHeader.getDstPort());
-                                data += "{\"src_port\":\""+udpHeader.getSrcPort()+"\",\"dest_port\":\""+udpHeader.getDstPort()+"\"";
+                                data += "{\"srcPort\":\""+udpHeader.getSrcPort()+"\",\"destPort\":\""+udpHeader.getDstPort()+"\"";
                             }
                         }
 
 
-                        if(packetFeatures!=null) {
+                        if(packetFeatures!=null && tcpPacket != null) {
                             packetFeatures.setPacketLength(ipV4Packet.getHeader().getTotalLength());
                             packetFeatures.setDestAddress(ipV4Packet.getHeader().getDstAddr());
                             packetFeatures.setSrcAddress(ipV4Packet.getHeader().getSrcAddr());
                             packetFeatures.setSrcMAC(ethernetPacket.getHeader().getSrcAddr());
                             packetFeatures.setDestMAC(ethernetPacket.getHeader().getDstAddr());
                             packetFeatures.writeFile(currFile);
-                            data += ",\"src_ip\":\""+packetFeatures.getSrcAddress()+"\",\"dest_ip\":\""+packetFeatures.getDestAddress()+ "\"}";
+                            data += ",\"srcIP\":\""+packetFeatures.getSrcAddress()+"\",\"destIP\":\""+packetFeatures.getDestAddress()+ "\"}";
                             if(packetCount == 0)
                                 apiData.append(data);
                             else
