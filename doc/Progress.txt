@@ -3,8 +3,8 @@ There are four modules.
 1. Feature Extractor : We have tried extracting various features from the TCP Header, namely, sourceIP, destination IP, source MAC, destination MAC, source Port, destination Port, SYN flag, ACK flag, PUSH flag, URG flag, FIN flag, RST flag, Packet Length.
 There are more features to be extracted.
 
-2. Training Module : We tried training our module according to the DARPA training dataset. We simulated DDoS attack on our system, collected features in csv file then tried training on that dataset. We got around 98% accuracy.
+2. Training Module : We tried training our module using attributes similar to the DARPA training dataset's but with fewer selective attributes. We simulated DDoS attack on our system, collected features in csv file, doing conversions to and from arff files wherever necessary then trained the model with this dataset. We got around 99.57% accuracy using k-fold cross-validation technique, with k being 10.
 
-3. Classifier Module :  The classifier module will try to label each bunch of 100 packets in to two categories, whether or not, it is a possible Attack. The code to test the model has been written. The next step is to send appropriate signal to the controller to push flows into the Open FLow Switches.
+3. Classifier Module :  The classifier module labels each bunch of 100 packets in to two categories, whether or not, it is a possible Attack. the previous classifier has been enhanced to give better accuracy. The classifier module sends the appropriate signal to the controller to push relevant flows into the Open Flow Switches.
 
 4. Feature Collector : Feature Collector collects packet features and further extract features from them in terms of per 100 packets. REST APIs for collector are created and exposed to switch.
