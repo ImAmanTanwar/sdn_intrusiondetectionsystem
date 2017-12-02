@@ -5,6 +5,6 @@ There are more features to be extracted.
 
 2. Training Module : We tried training our module using attributes similar to the DARPA training dataset's but with fewer selective attributes. We simulated DDoS attack on our system, collected features in csv file, doing conversions to and from arff files wherever necessary then trained the model with this dataset. We got around 99.57% accuracy using k-fold cross-validation technique, with k being 10.
 
-3. Classifier Module :  The classifier module labels each bunch of 100 packets in to two categories, whether or not, it is a possible Attack. the previous classifier has been enhanced to give better accuracy. The classifier module sends the appropriate signal to the controller to push relevant flows into the Open Flow Switches.
+3. Classifier Module :  The classifier module labels each bunch of 100 packets in to two categories, whether or not, it is a possible Attack. the previous classifier has been enhanced to give better accuracy. Appropriate techniques to store and load the classifier have been adopted so that the classifier runs as soon as possible, given the severity of task at hand.The classifier module sends the appropriate signal to the controller to push relevant flows into the Open Flow Switches.
 
 4. Feature Collector : Feature Collector collects packet features and further extract features from them in terms of per 100 packets. REST APIs for collector are created and exposed to switch.
