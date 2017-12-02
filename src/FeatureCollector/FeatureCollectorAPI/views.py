@@ -13,9 +13,13 @@ def send(request):
         data = json.loads(request.POST["details"])
         packets = data['packets']
         for packet in packets:
-            srcIP = packet['src_ip']
-            destIP = packet['dest_ip']
-            srcPort = packet['src_port']
-            destPort = packet['dest_port']
+            srcIP = packet['srcIP']
+            destIP = packet['destIP']
+            srcPort = packet['srcPort']
+            destPort = packet['destPort']
+            if 'isSYN' in packet:
+                print "SYN: "+packet["isSYN"]
+            if 'isRST' in packet:
+                print "RST: "+packet["isRST"]
             print srcIP+" "+destIP+" "+srcPort+" "+destPort
     return Response('{"status":"ok"}',status=status.HTTP_200_OK)
