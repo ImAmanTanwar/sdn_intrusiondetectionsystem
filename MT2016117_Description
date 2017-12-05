@@ -1,0 +1,8 @@
+//Description
+
+I first defined a VLANHost function,
+remove IP from default, "physical" interface then  create its VLAN Interface so that hosts' IPs can be assigned to the VLAN's interface
+
+Then I created another function MyTopology, where in I defined all the connections, that is which host is connected physically to which particular VLAN they belong. 
+
+We test this by pingall in Mininet
