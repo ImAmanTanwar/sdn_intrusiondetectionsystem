@@ -1,0 +1,198 @@
+URL Used:http://localhost:8181/restconf/config/opendaylight-inventory:nodes/node/openflow:1/table/32/flow/32
+Method Used: PUT
+
+JSON used:
+{
+    "flow": [
+        {
+            "table_id": "32",
+            "id": "32",
+            "priority": "65535",
+            "hard-timeout": "12000",
+            "idle-timeout": "12000",
+            "cookie": "61",
+            "match": {
+                "ethernet-match": {
+                    "ethernet-source": {
+                        "address": "00:00:00:00:00:05"
+                    }
+                },
+                "arp-target-transport-address": "10.0.0.2/32"
+            },
+            "instructions": {
+                "instruction": [
+                    {
+                        "order": 0,
+                        "apply-actions": {
+                            "action": [
+                                {
+                                    "order": 0,
+                                    "set-field": {
+                                        "vlan-match": {
+                                            "vlan-id": {
+                                                "vlan-id": "100",
+                                                "vlan-id-present": "true"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "order": 1,
+                                    "output-action": {
+                                        "output-node-connector": "3",
+                                        "max-length": "65535"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
+
+URL Used:http://localhost:8181/restconf/config/opendaylight-inventory:nodes/node/openflow:1/table/33/flow/33
+Method Used: PUT
+
+JSON used:
+{
+    "flow": [
+        {
+            "table_id": "33",
+            "id": "33",
+            "priority": "65535",
+            "hard-timeout": "12000",
+            "idle-timeout": "12000",
+            "cookie": "61",
+            "match": {
+                "ethernet-match": {
+                    "ethernet-source": {
+                        "address": "00:00:00:00:00:02"
+                    }
+                },
+                "arp-target-transport-address": "10.0.0.5/32"
+            },
+            "instructions": {
+                "instruction": [
+                    {
+                        "order": 0,
+                        "apply-actions": {
+                            "action": [
+                                {
+                                    "order": 0,
+                                    "set-field": {
+                                        "vlan-match": {
+                                            "vlan-id": {
+                                                "vlan-id": "100",
+                                                "vlan-id-present": "true"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "order": 1,
+                                    "output-action": {
+                                        "output-node-connector": "3",
+                                        "max-length": "65535"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
+
+
+URL : http://localhost:8181/restconf/config/opendaylight-inventory:nodes/node/openflow:2/table/34/flow/34
+Method: PUT
+
+JSON:
+{
+    "flow": [
+        {
+            "table_id": "34",
+            "id": "34",
+            "priority": "65535",
+            "hard-timeout": "12000",
+            "idle-timeout": "12000",
+            "cookie": "50",
+            "match": {
+                "ethernet-match": {
+                    "ethernet-source": {
+                        "address": "00:00:00:00:00:02"
+                    },
+                    "ethernet-destination": {
+                        "address": "00:00:00:00:00:05"
+                    }
+                }
+            },
+            "instructions": {
+                "instruction": [
+                    {
+                        "order": 0,
+                        "apply-actions": {
+                            "action": [
+                                {
+                                    "order": 0,
+                                    "output-action": {
+                                        "output-node-connector": "3",
+                                        "max-length": "65535"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
+
+URL : http://localhost:8181/restconf/config/opendaylight-inventory:nodes/node/openflow:2/table/35/flow/35
+Method: PUT
+
+JSON:
+{
+    "flow": [
+        {
+            "table_id": "35",
+            "id": "35",
+            "priority": "65535",
+            "hard-timeout": "12000",
+            "idle-timeout": "12000",
+            "cookie": "50",
+            "match": {
+                "ethernet-match": {
+                    "ethernet-source": {
+                        "address": "00:00:00:00:00:05"
+                    },
+                    "ethernet-destination": {
+                        "address": "00:00:00:00:00:02"
+                    }
+                }
+            },
+            "instructions": {
+                "instruction": [
+                    {
+                        "order": 0,
+                        "apply-actions": {
+                            "action": [
+                                {
+                                    "order": 0,
+                                    "output-action": {
+                                        "output-node-connector": "3",
+                                        "max-length": "65535"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
