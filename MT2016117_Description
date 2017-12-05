@@ -6,3 +6,12 @@ remove IP from default, "physical" interface then  create its VLAN Interface so 
 Then I created another function MyTopology, where in I defined all the connections, that is which host is connected physically to which particular VLAN they belong. 
 
 We test this by pingall in Mininet
+
+
+Problem given : 
+Set bandwidth between host1 of vlan1 and host1 of vlan2. 
+
+Solution :
+We can define the policy with host1(v1) and host1(v2) by doing setting their bandwidth by : self.addLink(bw= 10)
+
+I was not able to be solve the additional problem given though
