@@ -13,9 +13,9 @@ import weka.core.ProtectedProperties;
 
 public class ClassifyObject {
 	public static void main(String[] args){
-		
+
 		Training training = new Training();
-		Classifier cls = training.getClassifier(training);	
+		Classifier cls = training.getClassifier(training);
 		Instances input = null;
 		try {
 			input = training.getInputData();
@@ -27,7 +27,7 @@ public class ClassifyObject {
 		String str_nonattack = "0,0,100,26,0,0,66,66,65,3,0,0,0,0,66";
 		String try1 = "1,0,99,24,0,11,45,53,36,9,1,0,0,3,51"; //non attack
 		String try2 = "100,0,0,0,0,0,0,99,0,0,0,0,99,0,99"; //attack
-        
+
 
 		ClassifyObject obj = new ClassifyObject();
 		obj.findOut(try2, cls, input);
@@ -37,7 +37,7 @@ public class ClassifyObject {
 		ClassifyObject obj = new ClassifyObject();
 		double result = -99;
 		try {
-			String path = "C:/Users/Ritika/Documents/IIITB/SDN-NFV/Project/IntrusionDetectionSystem/src/j48.model";
+			String path = "j48.model";
 			Classifier cls = (Classifier) weka.core.SerializationHelper.read(path);
 			Instances input = Training.getInputData();
 			result = obj.findOut(str, cls, input);
@@ -50,7 +50,7 @@ public class ClassifyObject {
 			else{
 				System.out.println("Unexpected result, check logs");
 			}
-			
+
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -58,29 +58,29 @@ public class ClassifyObject {
 	//	obj.findOut(str, cls, input);
 
 		return false;
-		
-		
+
+
 	}
-	
+
 	 public double findOut(String str,Classifier cls, Instances input){
-		 
-		 List<String> attributeList = Arrays.asList(str.split(",")); 		 
-		 Instance newInstance = new Instance(16);		 
-		 
+
+		 List<String> attributeList = Arrays.asList(str.split(","));
+		 Instance newInstance = new Instance(16);
+
 		 String[] classValues = {"TRUE", "FALSE"};
 		// System.out.println("a is nominal "+ a.isNominal());
-		
-		 
+
+
 		 Instances dataUnlabeled = new Instances(input,1);
 		 System.out.println(dataUnlabeled.toString());
 		 newInstance.setDataset(dataUnlabeled);
-		
+
 		 dataUnlabeled.add(newInstance);
-		 dataUnlabeled.setClassIndex(dataUnlabeled.numAttributes() - 1); 
+		 dataUnlabeled.setClassIndex(dataUnlabeled.numAttributes() - 1);
 		 System.out.println("class attribute being "+dataUnlabeled.classAttribute());
 		 System.out.println("class index "+dataUnlabeled.classIndex());
 		 System.out.println("number of instances"+dataUnlabeled.numInstances());
-		 
+
 		 for(int i = 0 ; i < 15 ; i++)
 		 {
 			 int value = Integer.parseInt(attributeList.get(i));
@@ -89,7 +89,7 @@ public class ClassifyObject {
 		     //i is the index of attribute
 		     //value is the value that you want to set
 		 }
-		 
+
 		 double classified_index = -99;
 		 try {
 		//	 dataUnlabeled.classAttribute().value((int) clsLabel);
@@ -99,8 +99,8 @@ public class ClassifyObject {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		 
+
 		return classified_index;
-		 
+
 	 }
 }

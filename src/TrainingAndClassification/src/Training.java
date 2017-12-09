@@ -27,12 +27,12 @@ public class Training {
 
 	public static void main(String[] args) {
 		Training training = new Training();
-		File input_file = new File("C:/Users/Ritika/Documents/IIITB/SDN-NFV/ProjectFiles/MergedFile.csv");
+		File input_file = new File("../../MergedFile.csv");
 		Classifier cls = training.train(input_file);
 	}
 	public Classifier train(File input_file){
 		// TODO Auto-generated method stub
-		
+
 	    int folds = 10;
 	    int seed = 1;
 	    Classifier cls = new J48(); // Instantiate the classifier c4.5 in our case - developed on ID3
@@ -42,14 +42,14 @@ public class Training {
 		//	CSVLoader loader2 = new CSVLoader();
 		//	loader2.setFile(testfile);
 			Instances input = loader.getDataSet(); // creating dataset from csv
-			
+
 			//Setting Class Attribute
 			if (input.classIndex() == -1){
 				   input.setClassIndex(input.numAttributes() - 1);
 			}
 			//Randomize the rows - Shuffling
-			
-			
+
+
 			Random rand = new Random(1);   // create seeded number generator
 			Instances randData = new Instances(input);   // create copy of original data
 			randData.randomize(rand);         // randomize data with number generator
@@ -62,14 +62,14 @@ public class Training {
 			for (int n = 0; n < folds; n++) {
 			      Instances train = randData.trainCV(folds, n);
 			      Instances test = randData.testCV(folds, n);
-			      
+
 			      // build and evaluate classifier
 			      clsCopy = Classifier.makeCopy(cls);
 			      clsCopy.buildClassifier(train);
 			      eval.evaluateModel(clsCopy, test);
 			    }
-				
-			
+
+
                 cls = Classifier.makeCopy(clsCopy);
 			    // output evaluation
 			    System.out.println();
@@ -80,7 +80,7 @@ public class Training {
 			    System.out.println("Seed: " + seed);
 			    System.out.println();
 			    System.out.println("here "+eval.toSummaryString("=== " + folds + "-fold Cross-validation ===", false));
-			    String path = "C:/Users/Ritika/Documents/IIITB/SDN-NFV/Project/IntrusionDetectionSystem/src/j48.model";
+			    String path = "../j48.model";
 			    weka.core.SerializationHelper.write(path, cls);
 		}
 
@@ -94,21 +94,21 @@ public class Training {
 
 	}
 	public Classifier getClassifier(Training training){
-		
-		File input_file = new File("C:/Users/Ritika/Documents/IIITB/SDN-NFV/ProjectFiles/MergedFile.csv");
+
+		File input_file = new File("MergedFile.csv");
 		Classifier cls = training.train(input_file);
 		return cls;
 
 	}
-	
+
 	public  static Instances getInputData() throws IOException{
-		File input_file = new File("C:/Users/Ritika/Documents/IIITB/SDN-NFV/ProjectFiles/MergedFile.csv");
+		File input_file = new File("MergedFile.csv");
 		CSVLoader loader = new CSVLoader();
 		loader.setFile(input_file);
 		Instances input = loader.getDataSet(); // creating dataset from csv
 		return input;
-		
+
 	}
-	
-	
+
+
 }

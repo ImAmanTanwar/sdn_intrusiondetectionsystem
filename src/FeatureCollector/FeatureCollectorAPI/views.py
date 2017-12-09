@@ -6,11 +6,16 @@ import datetime,traceback
 import json,requests
 import requests,json
 from requests.auth import HTTPBasicAuth
-
+from django.conf import settings
+import os
 
 @api_view(['POST'])
 def send(request):
     if request.method == 'POST':
+        os.environ["CLASSPATH"] = settings.JAVA_CLASSES
+        from jnius import autoclass
+        Classify = autoclass('ClassifyObject')
+        Classify = Classify()
         data = json.loads(request.POST["details"])
         packets = data['packets']
         numSYN = numFIN = numRST = numPSH = numURG = numACK = count = 0
@@ -118,7 +123,8 @@ def send(request):
         smDestDfPort = sameDestDiffPort[max(sameDestDiffPort,key = sameDestDiffPort.get)]
     except:
         smDestDfPort = 0
-    print str(numSYN) +","+ str(numRST) + "," +str(numACK)+","+ str(numPSH)+","+str(numURG)+","+str(numFIN) \
+    maxSmSrc = max(sameSrcIpPackets, key = sameSrcIpPackets.get)[1:]
+    st = str(numSYN) +","+ str(numRST) + "," +str(numACK)+","+ str(numPSH)+","+str(numURG)+","+str(numFIN) \
                                 +"," +str(smSrcIp) \
                                 +","+ str(smDestIp) \
                                 +"," + str(smSrcPort) \
@@ -128,6 +134,11 @@ def send(request):
                                 +","+ str(smDestSYN) \
                                 +","+str(smDestSmPort) \
                                 +","+str(smDestDfPort)
+    if Classify.findOutForPython(st):
+        print "ATTACK"
+        block_ip_flow(maxSmSrc)
+    else:
+        print "NO ATTACK"
     return Response('{"status":"ok"}',status=status.HTTP_200_OK)
 
 

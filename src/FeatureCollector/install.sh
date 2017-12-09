@@ -5,7 +5,7 @@ if virtualenv .  > /dev/null; then
 	echo "Virtual Environment created."
 else
 	echo "Error creating Virtual Environment"
-	em -rf env
+	rm -rf env
 	set -e
 fi
 source bin/activate
